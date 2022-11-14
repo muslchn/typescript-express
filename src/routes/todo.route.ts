@@ -1,6 +1,6 @@
 import BaseRoutes from "./base.route";
 import { auth } from "../middlewares/auth.middleware";
-import validate from "../middlewares/auth.validator";
+import validate from "../middlewares/todo.validator";
 
 // controllers
 import TodoController from "../controllers/todo.controller";
