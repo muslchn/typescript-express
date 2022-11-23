@@ -14,6 +14,7 @@ export const auth = (req: Request, res: Response, next: NextFunction): any => {
 
     if (credential) {
       req.app.locals.credential = credential;
+      
       return next();
     }
 
