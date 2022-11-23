@@ -25,7 +25,7 @@ class AuthController {
 
     // generate token
     if (compare) {
-      let token = Authentication.generateToken(user.id, username, user.password);
+      let token = Authentication.generateToken(user.id, username);
 
       return res.send({
         token
