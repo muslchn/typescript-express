@@ -33,7 +33,7 @@
     "helmet": "^6.0.0",
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.25.5",
+    "sequelize": "^6.28.2",
     "sequelize-cli": "^6.5.2"
   }
 }
